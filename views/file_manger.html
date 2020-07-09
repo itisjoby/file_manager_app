@@ -1,0 +1,30 @@
+<div class="col-sm-12">
+        <label for="dark_color" class="dark_color">Select Directory</label>
+          <select required id="dark_select" class="partition_container directory_selector">
+            <option value="" disabled selected hidden>Select...</option>
+          </select>
+      <nav>
+        <ol class="breadcrumb history"></ol>
+      </nav>
+    </div>
+    <div class="col-sm-12">
+      <table class="table file_list_table">
+        <thead>
+          <tr>
+            <th>
+              file
+            </th>
+        </tr>
+      </thead>
+        <tbody class="file_list_wrapper">
+
+        </tbody>
+      </table>
+      <div id="index_native" class="box"></div>
+    </div>
+    <input type="hidden" name="current_path" value=""/>
+    <button type="button" class="btn btn-primary duplicate_scan">Scan for possible duplicate</button>
+</div>
+<script src="../views/smooth_scroll.js"></script>
+<script src="../assets/js/paginator.js"></script>
+

@@ -1,0 +1,86 @@
+html {
+  background-color: #6d7ec5;
+  color: lightyellow;
+  font-family: -webkit-body;
+  letter-spacing: 2px;
+  font-weight: inherit;
+  font-variant: petite-caps;
+  padding: 20px;
+  margin: 0px;
+  border: #333 solid;
+  width: 100%;
+  height: 100%;
+}
+
+.main_view {
+  border: #333 solid;
+}
+.dark_color {
+  color: #333;
+}
+
+select.directory_selector {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button.duplicate_scan {
+  position: sticky;
+  bottom: 3%;
+  left: 100%;
+  padding: 15px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: red;
+}
+
+div.notification-box {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  padding: 5px;
+  background-color: #55de55;
+  color: lightcyan;
+  height: 50px;
+  text-align: center;
+  border: #333 solid;
+  margin: 10px;
+  width: fit-content;
+}
+
+div.showNotification {
+  display: block;
+}
+
+div.hideNotification {
+  display: none;
+}
+
+.progress {
+  position: sticky;
+  bottom: 10px;
+}
+table tr {
+  border: #c7c0c0 solid;
+}
+
+table tr:hover {
+  transform: scale3d(1.02, 1.2, 1.5);
+  background-color: #0560b1;
+  color: lightyellow;
+}
+
+div.preview-btn {
+  padding: 10px;
+  color: blueviolet;
+  background-color: greenyellow;
+  margin: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+#screenShots {
+  margin-top: 20px;
+}

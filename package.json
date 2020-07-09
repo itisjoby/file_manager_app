@@ -1,0 +1,22 @@
+{
+  "name": "file_manager",
+  "version": "1.0.0",
+  "description": "this is a file manager app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "get-video-duration": "^1.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
