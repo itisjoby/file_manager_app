@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^8.1.1",
+    "electron": "^8.2.4",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "get-video-duration": "^1.0.3"
